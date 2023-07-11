@@ -1,0 +1,28 @@
+.headerWrapper{
+    display: flex;
+    justify-content: center;
+    background-color: aqua;
+
+}
+
+.headerConteiner{
+
+    min-height: 50px;
+    width: 60%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: center;
+    border: 2px solid;
+}
+
+.header_nav{
+    display: flex;
+    justify-content: space-between;
+    width: 400px;
+    border: 2px solid red;
+    flex-wrap: wrap;
+}
+
+.header_nav a {
+    text-decoration: none;
+}

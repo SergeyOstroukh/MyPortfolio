@@ -1,0 +1,30 @@
+.footerWrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #f5dbb1;
+}
+.footerContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 60%;
+    border: 2px solid;
+
+
+}
+.footerTextName{
+
+}
+.footerImages{
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.footerImages img{
+    max-width: 50px;
+    max-height: 50px;
+}
+.footerTextInfo{
+
+}

@@ -1,0 +1,43 @@
+.scillsWrapper {
+    display: flex;
+    background-color: #eeba80;
+    justify-content: center;
+
+}
+
+.scillsConteiner {
+    width: 60%;
+    border: 2px solid;
+}
+
+.skillsConteinerMySkill {
+    text-align: center;
+    min-height: 50px;
+    border: 2px solid red;
+}
+
+.scillsTehnologies {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+
+border: 2px solid greenyellow;
+}
+
+.scillsTehnologiesItem {
+    display: flex;
+    max-width: 300px;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border:2px solid red;
+}
+
+.scillsTehnologiesItem img {
+    max-height: 100px;
+    max-width: 100px;
+}

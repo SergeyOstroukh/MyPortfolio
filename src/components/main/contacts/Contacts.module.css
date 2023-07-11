@@ -1,0 +1,24 @@
+.contactsWrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #f3bfdb;
+}
+.contactsContainer{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border: 2px solid;
+    justify-content: center;
+    align-items: center;
+}
+.contactsItem{
+
+}
+.contactsItemForm{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.contactsIitemText{
+
+}

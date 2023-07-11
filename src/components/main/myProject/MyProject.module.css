@@ -1,0 +1,34 @@
+.MyProjectWrapper{
+    display: flex;
+    justify-content: center;
+    background-color: #c6ea90;
+}
+.MyProjectConteiner{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    border: 2px solid;
+}
+.MyProjectContainerText{
+    text-align: center;
+    border: 2px solid red;
+}
+.MyProjectContainerItems{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 2px solid yellow;
+}
+.itemBlock{
+    display: flex;
+    flex-direction: column;
+    border: 2px solid fuchsia;
+    width: 100%;
+    max-width: 300px;
+    align-items: center;
+}
+.itemBlock img{
+    max-width: 300px;
+    max-height: 200px;
+    width: 100%;
+}
